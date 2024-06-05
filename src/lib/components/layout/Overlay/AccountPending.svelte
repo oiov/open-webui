@@ -21,17 +21,17 @@
 		<div class="m-auto pb-10 flex flex-col justify-center">
 			<div class="max-w-md">
 				<div class="text-center dark:text-white text-2xl font-medium z-50">
-					Account Activation Pending<br /> Contact Admin for WebUI Access
+					账户待激活<br /> 请联系管理员邮箱
 				</div>
 
 				<div class=" mt-4 text-center text-sm dark:text-gray-200 w-full">
-					Your account status is currently pending activation.<br /> To access the WebUI, please reach
-					out to the administrator. Admins can manage user statuses from the Admin Panel.
+					您的帐户状态当前处于待激活状态<br/>若要访问 OiChat，请联系管理员。
+                                        管理员可以从“管理面板”管理用户状态。
 				</div>
 
 				{#if adminDetails}
 					<div class="mt-4 text-sm font-medium text-center">
-						<div>Admin: {adminDetails.name} ({adminDetails.email})</div>
+						<div>管理员: {adminDetails.name} (oiov@duck.com)</div>
 					</div>
 				{/if}
 
