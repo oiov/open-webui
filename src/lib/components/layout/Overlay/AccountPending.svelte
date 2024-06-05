@@ -21,17 +21,17 @@
 		<div class="m-auto pb-10 flex flex-col justify-center">
 			<div class="max-w-md">
 				<div class="text-center dark:text-white text-2xl font-medium z-50">
-					账户待激活<br /> 请联系管理员邮箱
+					账户待激活
 				</div>
 
 				<div class=" mt-4 text-center text-sm dark:text-gray-200 w-full">
-					您的帐户状态当前处于待激活状态<br/>若要访问 OiChat，请联系管理员。
-                                        管理员可以从“管理面板”管理用户状态。
+					您的帐户当前处于待激活状态，若要访问 OiChat，<br/> 
+                                        请发送注册的用户名到管理员邮箱或进群 634323049 激活。
 				</div>
 
 				{#if adminDetails}
 					<div class="mt-4 text-sm font-medium text-center">
-						<div>管理员: {adminDetails.name} (oiov@duck.com)</div>
+						<div>管理员: {adminDetails.name} (yesmorecc@qq.com)</div>
 					</div>
 				{/if}
 
