@@ -73,6 +73,7 @@
 		      gtag('config', 'G-DWV43QK3P0');
 		</script>
 	</head>
+
 	<body data-sveltekit-preload-data="hover">
 		<div style="display: contents">%sveltekit.body%</div>
 
@@ -94,7 +95,7 @@
 					height: 6rem;
 					top: 44%;
 					left: 50%;
-					margin-left: -3rem;
+					transform: translateX(-50%);
 				"
 				src="/static/splash.png"
 			/>
@@ -106,7 +107,7 @@
 					left: 50%;
 
 					width: 24rem;
-					margin-left: -12rem;
+					transform: translateX(-50%);
 
 					display: flex;
 					flex-direction: column;
@@ -162,6 +163,7 @@
 	#splash-screen {
 		background: #fff;
 	}
+
 	html.dark #splash-screen {
 		background: #000;
 	}
@@ -218,6 +220,7 @@
 			opacity: 0.65;
 		}
 	}
+
 	.animate-pulse-fast {
 		animation: pulse 1.5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
 	}
